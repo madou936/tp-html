@@ -41,3 +41,28 @@ nav ul li a {
     border-radius: 10%;
     padding: 10px;
 }
+
+.banner-image {
+    background: url(./assets/banner.jpeg);
+    background-size:cover;
+    background-position: center;
+    padding: 300px;
+    position: relative;
+}
+
+.banner-image h1 {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    color: white;
+    background-color: rgba(7, 7, 7, 0.563);
+    padding: 40px;
+}
+
+.banner-image button {
+    position: absolute;
+    right: 0;
+    background-color: yellow;
+    border-color: yellow;
+    padding: 15px;
+}
