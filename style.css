@@ -15,31 +15,29 @@
     margin-top: 100px;
 }
 
-nav ul li {
+.menu li {
     padding-left: 30px;
 
 }
-nav ul li a {
+.menu li a {
     text-decoration: none;
     color: white;
 }
 
 .second-menu {
-    list-style-type: none;
-    margin-top: -50px;
-    margin-left: 50px;
+    position: relative;
 }
 
-.second-menu li {
-    padding-top: 30px;
+.second-menu div {
+    position: absolute;
+    top: 70px;
+    right: -100px;
 }
 
-.second-menu li a {
-    color: black;
-    border: 1px solid white;
-    background-color: white;
-    border-radius: 10%;
-    padding: 10px;
+.btn {
+    padding: 5px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .banner-image {
@@ -65,4 +63,6 @@ nav ul li a {
     background-color: yellow;
     border-color: yellow;
     padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
